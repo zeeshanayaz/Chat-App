@@ -1,5 +1,6 @@
 package com.zeeshan.chatapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -42,6 +43,8 @@ class MainActivity : AppCompatActivity(){
     }
 
     fun loginBtnNavClicked(view: View){
+        var loginIntent = Intent(this, LoginActivity::class.java)
+        startActivity(loginIntent)
 
     }
 
