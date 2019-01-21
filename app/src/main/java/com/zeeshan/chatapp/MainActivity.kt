@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -40,6 +41,17 @@ class MainActivity : AppCompatActivity(){
         }
     }
 
+    fun loginBtnNavClicked(view: View){
+
+    }
+
+    fun addChannelClicked(view: View){
+
+    }
+
+    fun sendMessageButtonClicked(view: View){
+        
+    }
 //    override fun onCreateOptionsMenu(menu: Menu): Boolean {
 //        // Inflate the menu; this adds items to the action bar if it is present.
 //        menuInflater.inflate(R.menu.main, menu)
