@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity(){
     }
 
     fun addChannelClicked(view: View){
-
+        Snackbar.make(view,"Add Channel Button Clicked",Snackbar.LENGTH_SHORT).setAction("Action",null).show()
     }
 
     fun sendMessageButtonClicked(view: View){
